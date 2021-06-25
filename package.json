@@ -2,6 +2,9 @@
   "name": "demo-workshopper-template",
   "version": "1.0.0",
   "main": "demo-workshopper.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sam-parsons/demo-workshopper-template.git"
@@ -11,5 +14,17 @@
   "bugs": {
     "url": "https://github.com/sam-parsons/demo-workshopper-template/issues"
   },
-  "homepage": "https://github.com/sam-parsons/demo-workshopper-template#readme"
+  "homepage": "https://github.com/sam-parsons/demo-workshopper-template#readme",
+  "dependencies": {
+    "bl": "^0.8.0",
+    "colors-tmpl": "^1.0.0",
+    "hapi": "6.x.x",
+    "hyperquest": "0.1.x",
+    "through2": "^0.4.1",
+    "workshopper-adventure": "7.0.0",
+    "workshopper-exercise": "3.0.3"
+  },
+  "devDependencies": {
+    "tape": "5.2.2"
+  }
 }
