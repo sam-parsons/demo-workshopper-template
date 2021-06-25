@@ -10,7 +10,7 @@
     "url": "git+https://github.com/sam-parsons/demo-workshopper-template.git"
   },
   "license": "BSD-3-Clause",
-  "bin": "./demo-workshopper.js",
+  "bin": "./bin/cmd.js",
   "bugs": {
     "url": "https://github.com/sam-parsons/demo-workshopper-template/issues"
   },
