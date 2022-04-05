@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/sam-parsons/demo-workshopper-template#readme",
   "dependencies": {
-    "bl": "^0.8.0",
+    "bl": "^1.2.3",
     "colors-tmpl": "^1.0.0",
     "hapi": "6.x.x",
     "hyperquest": "0.1.x",
